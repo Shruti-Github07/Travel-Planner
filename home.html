@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Planner</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <!-- navbar start here -->
+    <nav class="navbar">
+      <div class="navbar-buttons">
+        <button class="navbar-profile" onclick="">
+          <img class="profile-img" src="images/user.png" />
+        </button>
+        <button class="navbar-toggler" onclick="toggleNav()">
+          <img class="logout-img" src="images/logout.png" />
+        </button>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <div class="main-content">
+        <!-- sidebar starts here -->
+        <div class="sidebar">
+            <!-- profile and name section  -->
+            <div class="profile-details">
+                <img class="profile-pic" src="images/profile_image.png">
+                <div class="profile-name">User name</div>
+            </div>
+            
+            <div class="dotted-lines"></div>
+
+            <!-- Planned lists -->
+            <div class="planned-lists"> planned lists 1</div>
+            <div class="planned-lists"> planned lists 2</div>
+            <div class="planned-lists"> planned lists 3</div>
+            <!--  -->
+
+            <!-- different buttons section  -->
+            <button class="add-new-plan">Add New Plan</button>
+            <div class="about-share">
+                <button >about</button>
+                <button>share/feedback</button>
+                <button>Logout</button>
+            </div>
+        </div>
+        <!-- sidebar ends here -->
+        
+        <!-- planner starts here  -->
+        <div class="planner">
+            <div class="planner-header">
+                <input type="text" value="" class="planner-name">
+                <div class="planner-header-btn">
+                    <button class="edit-planner"><img class="planner-header-btn-img" src="images/write.png"></button>
+                    <button class="delete-planner"><img class="planner-header-btn-img" src="images/bin.png"></button>
+                    <button class="download-planner"><img class="planner-header-btn-img" src="images/arrow-down.png"></button>
+                </div>
+            </div>
+        </div>
+        <!-- Planner ends here -->
+    </div>
+    <!-- plus button  -->
+    <!-- <button class="plus"><img class="plus-btn-img" src="images/plus.png"></button> -->
+  </body>
+</html>
